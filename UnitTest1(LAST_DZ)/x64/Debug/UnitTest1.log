@@ -1,0 +1,25 @@
+﻿  UnitTest1.cpp
+C:\Users\миша\source\repos\UnitTest1\UnitTest1.cpp(1,9): warning C4603: _USE_MATH_DEFINES: макрос не определен или определение изменилось после использования предкомпилированного заголовка
+  (компиляция исходного файла "/UnitTest1.cpp")
+      C:\Users\миша\source\repos\UnitTest1\UnitTest1.cpp(1,9):
+      Добавление макроопределения в предкомпилированный заголовок вместо определения его здесь
+      C:\Users\миша\source\repos\UnitTest1\UnitTest1.cpp(2,1):
+      использование предварительно скомпилированного заголовка
+  
+C:\Users\миша\source\repos\samouchka\FileName.cpp(13,36): error C2065: M_PI: необъявленный идентификатор
+  (компиляция исходного файла "/UnitTest1.cpp")
+  
+C:\Users\миша\source\repos\UnitTest1\UnitTest1.cpp(25,9): error C2535: const Microsoft::VisualStudio::CppUnitTestFramework::MemberMethodInfo *UnitTest1::UnitTest1::__GetTestMethodInfo_TestPositiveNumbers(void): функция-член уже определена или объявлена
+  (компиляция исходного файла "/UnitTest1.cpp")
+      C:\Users\миша\source\repos\UnitTest1\UnitTest1.cpp(20,9):
+       см. объявление "UnitTest1::UnitTest1::__GetTestMethodInfo_TestPositiveNumbers"
+  
+C:\Users\миша\source\repos\UnitTest1\UnitTest1.cpp(25,9): error C2535: void UnitTest1::UnitTest1::TestPositiveNumbers(void): функция-член уже определена или объявлена
+  (компиляция исходного файла "/UnitTest1.cpp")
+      C:\Users\миша\source\repos\UnitTest1\UnitTest1.cpp(20,9):
+       см. объявление "UnitTest1::UnitTest1::TestPositiveNumbers"
+  
+C:\Users\миша\source\repos\UnitTest1\UnitTest1.cpp(18,34): error C2065: M_PI: необъявленный идентификатор
+  (компиляция исходного файла "/UnitTest1.cpp")
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\numbers(11): warning STL4038: The contents of <numbers> are available only with C++20 or later.

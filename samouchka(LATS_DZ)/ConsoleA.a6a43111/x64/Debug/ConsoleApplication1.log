@@ -1,0 +1,4 @@
+﻿  FileName.cpp
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\numbers(11): warning STL4038: The contents of <numbers> are available only with C++20 or later.
+C:\Users\миша\source\repos\samouchka\FileName.cpp(13,13): warning C4244: инициализация: преобразование "double" в "float", возможна потеря данных
+  ConsoleApplication1.vcxproj -> C:\Users\миша\source\repos\samouchka\x64\Debug\ConsoleApplication1.exe
