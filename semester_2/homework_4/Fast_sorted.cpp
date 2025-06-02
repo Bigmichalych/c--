@@ -18,8 +18,8 @@ void quicksort(vector<int>& arr, int left, int right, int depth) {
     int i = left, j = right;
     
     while (i <= j) {
-        while (arr[i] < pivot) ++i;
-        while (arr[j] > pivot) --j;
+        while (arr[i] < pivot) i++;
+        while (arr[j] > pivot) j--;
         if (i <= j) {
             swap(arr[i], arr[j]);
             ++i;
